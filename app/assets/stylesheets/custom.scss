@@ -71,7 +71,7 @@ body {
 }
 
 
-.caroussel{
+.carrousel{
   border:1px lightgrey solid;
   height: 500px;
   width: 100%;
@@ -103,6 +103,10 @@ body {
   width:100px;
   background: green;
   color:black;
+  display: flex;
+  justify-content: center;
+  line-height: 100px;
+  font-size: 40px;
 }
 
 .navigationparpoints{
@@ -117,7 +121,7 @@ body {
   width: 20px;
   height: 20px;
   margin: 5px;
-  background-color: #0159b3;
+  background-color: grey;
   border-radius: 50%;
   border: 1px grey solid;
 }

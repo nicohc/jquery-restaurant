@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   def index
   end
 
-  def caroussel
+  def carrousel
   end
-  
+
 end
