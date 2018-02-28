@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 
 $('.presentation').on( 'click', function () {
     $('.menu_text').slideUp()
@@ -16,4 +16,5 @@ $('.carte').on( 'click', function () {
     $('.presentation_text').slideUp()
     $('.menu_text').slideUp()
     $('.carte_text').slideDown("slow")
+});
 });

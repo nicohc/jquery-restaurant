@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 let i = 0 ;
 let images = $(".imageslider");   // cible des div d'images
 let ronds = $(".rond");
@@ -17,7 +19,7 @@ function affichage(i) {
 
 };
 
-// Pour afficher les slides via les fleches de navigation 
+// Pour afficher les slides via les fleches de navigation
 
 $(".flechedroite").on( 'click', function (){
     if (i < nbimg-1) {
@@ -67,3 +69,5 @@ function slideImg(){
 }
 
 slideImg(); // enfin, on lance la fonction une première fois
+
+});
