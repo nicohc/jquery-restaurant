@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Petit site avec 2 principales fonctionnalités codées en jQuery :
 
-Things you may want to cover:
+* Un système de navigation à onglets (page d'accueil)
+et visibilité du contenu d'un seul onglet à la fois !
 
-* Ruby version
+* Un slideshow/carrousel d'image, avec :
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Navigation image précédente/suivante
+- Défilement automatique (5sec.)
+- Sélection directe d'une image via les 'boutons ronds' 
