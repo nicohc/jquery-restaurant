@@ -7,6 +7,6 @@ et visibilité du contenu d'un seul onglet à la fois !
 
 * Un slideshow/carrousel d'image, avec :
 
-- Navigation image précédente/suivante
-- Défilement automatique (5sec.)
-- Sélection directe d'une image via les 'boutons ronds' 
+-- Navigation image précédente/suivante
+-- Défilement automatique (5sec.)
+-- Sélection directe d'une image via les 'boutons ronds' 
