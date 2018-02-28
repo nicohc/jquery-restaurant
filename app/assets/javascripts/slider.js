@@ -3,6 +3,7 @@ let images = $(".imageslider");   // cible des div d'images
 let ronds = $(".rond");
 let nbimg = images.length;       // number of images in imageslider
 
+
 function affichage(i) {
   let image = $(".imageslider").eq(i);  // on cible l'image actuelle
   images.hide(0, function(){image.show()});
@@ -15,6 +16,8 @@ function affichage(i) {
   console.log(i);
 
 };
+
+// Pour afficher les slides via les fleches de navigation 
 
 $(".flechedroite").on( 'click', function (){
     if (i < nbimg-1) {
@@ -38,10 +41,12 @@ $(".flechegauche").on( 'click', function (){
     }
 });
 
+// Pour afficher la slide voulue via les petits ronds
+
 $(".rond").on( 'click', function(){
+      i = $(this).index();
       affichage(i);
-      $(this) = $(".rond").eq();
-      console.log();
+      console.log(i);
 });
 
 // Pour que le carrousel tourne automatiquement
